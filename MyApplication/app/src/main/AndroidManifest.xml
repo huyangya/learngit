@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="com.app.first" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".newsActivity">
+            <intent-filter>
+                <action android:name="com.app.news" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyActivity">
+            <intent-filter>
+                <action android:name="com.app.my" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".changemimaActivity" />
+        <activity android:name=".ChangeNumActivity" />
+        <activity android:name=".ChangeInfoActivity" />
+        <activity android:name=".BookActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".Coach" />
+        <activity android:name=".Absent" />
+        <activity android:name=".Stu_infoActivity" />
+        <activity android:name=".ManaCourse" />
+        <activity android:name=".Add_course" />
+        <activity android:name=".Adm_courseActivity"></activity>
+    </application>
+
+</manifest>
