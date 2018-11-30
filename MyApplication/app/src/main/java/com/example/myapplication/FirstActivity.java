@@ -40,7 +40,18 @@ public class FirstActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+        Button button4 = (Button)findViewById(R.id.button);
+        button4.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(FirstActivity.this,VideoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu)

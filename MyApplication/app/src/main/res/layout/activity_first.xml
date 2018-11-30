@@ -56,4 +56,14 @@
         android:layout_alignParentStart="true"
         android:id="@+id/dashview" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bookButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="52dp"
+        android:background="@color/orange"
+        android:text="视频列表" />
+
 </RelativeLayout>
